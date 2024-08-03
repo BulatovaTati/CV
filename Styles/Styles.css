@@ -1,0 +1,239 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #e5e5e5;
+}
+/* Main Styles */
+.main {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1150px;
+  margin: 0 auto;
+}
+/* Main Content */
+.main_content {
+  background-color: #ffffff;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+  padding: 50px 90px;
+}
+/* About styles */
+.about {
+  margin-bottom: 40px;
+}
+.about_position {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 17px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.about_name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 55px;
+  color: #000000;
+  margin-bottom: 25px;
+}
+.about_description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  width: 477px;
+}
+/* Projects Styles */
+.projects {
+  margin-bottom: 50px;
+}
+.projects,
+.title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+}
+.projects_list {
+  padding: 0;
+  margin-left: 15px;
+}
+.projects_item,
+.project_bracket {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+.project,
+.project_link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+.project {
+  margin: 10px;
+}
+.project_link {
+  margin-left: 10px;
+}
+/* Work styles */
+.work {
+  margin-bottom: 45px;
+}
+.work_position,
+.organisation {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+.work_position {
+  margin-right: 145px;
+}
+.organisation {
+  color: #fb6d3a;
+}
+.period {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin-bottom: 10px;
+}
+.line {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+}
+.work_list {
+  padding: 0;
+  margin-bottom: 15px;
+}
+.work_list_item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  margin-right: 40px;
+}
+
+/* Education Styles */
+.education {
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.education_university {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fb6d3a;
+  margin-bottom: 10px;
+}
+.education_speciality {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+/* Sidebar Styles */
+.sidebar {
+  background-color: #1e2939;
+  padding-top: 40px;
+  width: 370px;
+}
+.photo {
+  width: 370px;
+  margin-bottom: 50px;
+}
+
+/* .contacts {
+  margin-left: 40px;
+}
+.Tech_skills {
+  margin-left: 40px;
+}
+.Soft_Skills {
+  margin-left: 40px;
+} */
+
+.Contacts,
+.Tech_Skills,
+.Soft_Skills,
+.Languages_skills,
+.Certificates_skills {
+  margin-left: 40px;
+}
+.Contacts {
+  margin-bottom: 50px;
+}
+.Tech_Skills {
+  margin-bottom: 45px;
+}
+.Sidebar_title,
+.Languages_title,
+.Certificates_title {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  margin-bottom: 10px;
+}
+.contact_type {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fb6d3a;
+  margin-right: 10px;
+}
+.contact_link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.Tech_Skills_list,
+.Sidebar_title_list,
+.Languages_title_list,
+.Certificates_title_list {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  padding: 0;
+  margin-left: 17px;
+}
+.Tech_Skills_item,
+.Sidebar_title_item,
+.Languages_title_item,
+.Certificates_title_item {
+  color: #fb6d3a;
+}
+.Tech_Skills_text,
+.Sidebar_title_text,
+.Languages_title_text,
+.Certificates_title_text {
+  color: #ffffff;
+}
+.photo_certificate {
+  width: 370px;
+  margin-top: 12px;
+}
