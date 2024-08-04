@@ -242,7 +242,6 @@ svg {
 .contact_type:focus svg {
   fill: #fb6d3a;
 }
-
 .contact_link {
   font-style: normal;
   font-weight: 400;
@@ -252,15 +251,10 @@ svg {
   transition: color 250ms ease;
 }
 
-.contact_link .Tech_Skills_list,
+.Tech_Skills_list,
 .Sidebar_title_list,
 .Languages_title_list,
 .Certificates_title_list {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  color: #ffffff;
   padding: 0;
   margin-left: 17px;
 }
@@ -275,6 +269,11 @@ svg {
 .Sidebar_title_text,
 .Languages_title_text,
 .Certificates_title_text {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
   color: #ffffff;
 }
 .photo_certificate {
